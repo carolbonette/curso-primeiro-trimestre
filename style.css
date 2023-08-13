@@ -3,6 +3,10 @@
  padding: 0;
  }
 
+body{
+    font-family: 'Poppins', sem serifa;
+}
+
 .cabeçalho {
 background-color: #DAB5F6;
 color: white;
@@ -25,7 +29,6 @@ font-size: 17px;
 .loja-imagem{
     width: 25%;
 }
-
 .loja{
     background-image: linear-gradient(#DAB5F6,#f9f2fc);
 color: white;
@@ -34,10 +37,29 @@ justify-content: center;
 align-items: center;
 padding: 10px 0%;
 }
-
 .loja-div-conteudo{
     width: 35%;
 }
 .loja-titulo{
     padding: 24px 0;
+}
+
+.Peças-disponíveis-imagem{
+    width: 90px;
+}
+
+
+
+.Peças-disponíveis-div{
+text-align: center;
+}
+
+.Peças-disponíveis-div{
+    text-align: center;
+padding: 50px 0;
+}
+
+.Peças-disponíveis-todas{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% 20% 
 }
