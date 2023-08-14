@@ -44,22 +44,24 @@ padding: 10px 0%;
     padding: 24px 0;
 }
 
-.Peças-disponíveis-imagem{
+.novidades-imagem{
     width: 90px;
 }
 
+.novidades-icone{
+    width: 24px;
+}
 
-
-.Peças-disponíveis-div{
+.novidades-div{
 text-align: center;
 }
 
-.Peças-disponíveis-div{
-    text-align: center;
-padding: 50px 0;
+.novidades-titulo{
+text-align: center;
 }
 
-.Peças-disponíveis-todas{
+
+.novidades-todas{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20% 20% 
 }
